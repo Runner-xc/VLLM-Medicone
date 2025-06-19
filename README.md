@@ -1,6 +1,7 @@
 ### AI辅助诊疗系统
 
 ##### 数据集结构
+```text
 medical_dataset/
 ├── images/              # 病理图片文件夹
 │   ├── case_001.jpg     # 患者1的病理切片图像
@@ -14,6 +15,7 @@ medical_dataset/
 │   ├── case_001.txt      # 也可使用TXT格式，每行对应一个标注字段
 │   └── ...              
 └── dataset.csv          # 数据集索引表（关键！便于模型读取）
+```
 
 `json文件`格式要求：
 ```text
